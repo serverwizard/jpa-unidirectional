@@ -17,6 +17,8 @@ dependencies {
     implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
     implementation("ch.qos.logback:logback-classic:1.4.7")
     implementation("com.h2database:h2:2.1.214")
+    // ByteBuddy (Proxy 생성용)
+    implementation("net.bytebuddy:byte-buddy:1.14.9")
     testImplementation("org.junit.jupiter:junit-jupiter:5.9.3")
     testImplementation("org.assertj:assertj-core:3.24.2")
 }
